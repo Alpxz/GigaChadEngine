@@ -424,11 +424,14 @@
   <ItemGroup />
   <ItemGroup>
     <ClCompile Include="GigaChadEngine.cpp" />
+    <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GigaChadEngine.fx" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="Prerequisites.h" />
     <CLInclude Include="resource.h" />
     <ResourceCompile Include="GigaChadEngine.rc" />
   </ItemGroup>
